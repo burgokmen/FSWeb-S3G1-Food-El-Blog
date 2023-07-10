@@ -8,7 +8,7 @@ h1 {
   margin: 20px 0;
   font-size: 60px;
   text-align: center;
-  font-size: 10px;
+  
 }
 
 h2,
@@ -45,6 +45,14 @@ img {
 }
 .content-row {
   display: flex;
+}
+
+.NotBanner{
+  width: 150px;
+}
+
+#Banner{
+  max-width:100%;
 }
 
 .content-row div {
