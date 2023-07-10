@@ -86,6 +86,7 @@ img {
 .contact-section {
   border-top: 1px dashed black;
   padding: 20px 0;
+  line-height: 2;
 }
 
 .contact-section h2 {
@@ -97,6 +98,7 @@ img {
    line-height: 2;
 */
 
+
 footer {
   width: 100%;
   background: #e79947;
@@ -105,6 +107,7 @@ footer {
 
 footer .footer-content {
   margin: 0 auto;
+  width: : 750px;
   /*======= width property yaratın. Değerini 750px olarak atayın */
 }
 
@@ -122,6 +125,13 @@ footer nav {
   color: black;
   text-decoration: underline;
 */
+footer nav a{
+  margin: 10px;
+  color: black;
+  text-decoration: underline;
+}
+
+
 
 footer nav a:first-child {
   margin-left: 0;
@@ -130,8 +140,12 @@ footer nav a:first-child {
 /*======= Footer nav'daki anchor tag için aşağıdaki stilleri içeren bir hover state yaratın:
   color: white;
 */
+footer nav a:hover{
+  color:white;
+}
 
 footer .footer-content .copyright {
   padding: 20px 0;
   /*======= metni ortalayacak kodu yazın */
+  text-align: center;
 }
