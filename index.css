@@ -3,6 +3,10 @@
   color: #3c373b;
 }
 
+.Headerr{
+  justify-content: space-around;
+}
+
 h1 {
   font-family: "Gaegu", cursive;
   margin: 20px 0;
@@ -47,8 +51,21 @@ img {
   display: flex;
 }
 
+.Right{
+  text-align: right;
+  
+}
+
 .NotBanner{
   width: 150px;
+}
+
+
+.NotBanner .Lefty{
+  float:left;
+}
+.NotBanner .Righty{
+  float:right;
 }
 
 #Banner{
