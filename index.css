@@ -3,16 +3,17 @@
   color: #3c373b;
 }
 
-.Headerr{
-  justify-content: space-around;
+body{
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
 }
 
 h1 {
   font-family: "Gaegu", cursive;
   margin: 20px 0;
-  font-size: 60px;
   text-align: center;
-  
+  font-size: 60px;
 }
 
 h2,
@@ -29,7 +30,7 @@ h6 {
 
 p {
   font-size: 16px;
-  font-family: roboto;
+  font-family: "Roboto";
   padding: 10px;
   line-height: 1.4;
 }
@@ -51,30 +52,18 @@ img {
   display: flex;
 }
 
-.Right{
-  text-align: right;
-  
-}
-
-.NotBanner{
-  width: 150px;
-}
 
 
-.NotBanner .Lefty{
-  float:left;
-}
-.NotBanner .Righty{
-  float:right;
-}
-
-#Banner{
-  max-width:100%;
-}
 
 .content-row div {
   /*======= margin propery yaratın.  Değerini 20px olarak atayın*/
   margin: 20px 0;
+}
+
+.content-row img{
+  width: 40%;
+  object-fit: :cover;
+
 }
 
 .container {
@@ -98,20 +87,24 @@ img {
 .container header nav a:hover {
   /*======= background property yaratın ve değeri white olsun.  Sonra, color property yaratın ve değerini yapın. */
   background: white;
-  color: #3c373b;
+  color: #e79947;
+}
+
+.banner{
+  background-color: lightgrey;
+  padding: 20px;
 }
 
 /*======= Hakkmızda bölümü için aşağıdaki stilleri içeren bir selector yaratın:
   margin-top: 20px;
 */
-#Hakkimizda {
+.hakkimizda {
   margin-top: 20px;
 }
 
 .contact-section {
   border-top: 1px dashed black;
   padding: 20px 0;
-  line-height: 2;
 }
 
 .contact-section h2 {
@@ -119,9 +112,15 @@ img {
   margin: 0 0 10px 0;
 }
 
+
+
 /*======= contact-section class'da address tag'i için aşağdıaki stilleri içeren bir selector yaratın:
    line-height: 2;
 */
+
+.contact-section adress {
+  line-height: 2;
+}
 
 
 footer {
